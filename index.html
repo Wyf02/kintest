@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tasks 1, 2, 5 Demo</title>
+
+<link rel="stylesheet" href="style.css" />
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<nav>
+  <h2>My Tasks</h2>
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  <div class="nav-links" id="menu">
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<div class="container">
+
+  <h1>Task Demo Page -  Yifan Wang</h1>
+
+  <!-- Task 1 -->
+  <section>
+    <h2>Task 1: Find Max Number in Array</h2>
+    <input id="numInput" placeholder="Example: 3,7,1,9,4" size="40">
+    <button onclick="findMax()">Find Max</button>
+    <p id="maxResult"></p>
+  </section>
+
+  <hr>
+
+  <!-- Task 2 -->
+  <section>
+    <h2>Task 2: Asynchronous API Fetch</h2>
+    <button onclick="fetchTitles()">Fetch Titles</button>
+    <ul id="titleList"></ul>
+  </section>
+
+  <hr>
+
+  <!-- Task 5 -->
+   <section>
+    <h2>Task 5: Responsive Navigation Bar(on top)</h2>
+  </section>
+</div>
+
+
+
+</body>
+</html>
